@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assem Karam | Junior Front-End Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans leading-normal tracking-normal">
+
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="#hero" class="text-xl font-bold text-indigo-400 hover:text-indigo-300">Assem Karam</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="hover:text-indigo-400 transition">About</a>
+                    <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+                    <a href="#experience" class="hover:text-indigo-400 transition">Experience</a>
+                    <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+                    <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-slate-300 focus:outline-none">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 px-4 pt-2 pb-4 space-y-2">
+            <a href="#about" class="block hover:text-indigo-400 py-1">About</a>
+            <a href="#skills" class="block hover:text-indigo-400 py-1">Skills</a>
+            <a href="#experience" class="block hover:text-indigo-400 py-1">Experience</a>
+            <a href="#projects" class="block hover:text-indigo-400 py-1">Projects</a>
+            <a href="#contact" class="block hover:text-indigo-400 py-1">Contact</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-16 px-4">
+        <div class="text-center max-w-3xl">
+            <h1 class="text-4xl sm:text-6xl font-extrabold mb-4 tracking-tight">
+                Hi, I'm <span class="text-indigo-400">Assem Karam</span>
+            </h1>
+            <p class="text-xl sm:text-2xl text-slate-400 mb-6 font-light">
+                Junior Front-End Developer & Computer Science Student
+            </p>
+            <p class="text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
+                Motivated Computer Science student with hands-on experience building responsive, user-friendly web applications using modern web technologies.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#projects" class="btn btn-primary bg-indigo-600 hover:bg-indigo-700 border-none px-6 py-3 rounded-lg font-medium transition">
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline-light border-slate-600 hover:bg-slate-800 px-6 py-3 rounded-lg font-medium transition">
+                    Get In Touch
+                </a>
+            </div>
+            <div class="flex justify-center space-x-6 mt-8 text-2xl text-slate-400">
+                <a href="https://linkedin.com/in/assem-karam-79b28835b" target="_blank" class="hover:text-indigo-400 transition" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:assemasm4@gmail.com" class="hover:text-indigo-400 transition" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-indigo-400">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-4 text-slate-300">
+                    <p>
+                        I am currently pursuing a <strong>Bachelor of Computer Science and Artificial Intelligence</strong> at Fayoum University (Expected Graduation: 2028).
+                    </p>
+                    <p>
+                        My objective is to apply my technical skills to deliver high-quality, valuable digital solutions and create seamless user interfaces.
+                    </p>
+                    <div class="pt-4">
+                        <h3 class="text-xl font-semibold text-white mb-2">Languages</h3>
+                        <ul class="list-disc list-inside space-y-1 text-slate-300">
+                            <li><strong>Arabic:</strong> Native[span_5](start_span)[span_5](end_span)</li>
+                            <li><strong>English:</strong> Very Good[span_6](start_span)[span_6](end_span)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <h3 class="text-xl font-semibold text-indigo-300 mb-4">Quick Details</h3>
+                    <ul class="space-y-3 text-slate-300">
+                        <li><i class="fa-solid fa-location-dot text-indigo-400 mr-2"></i> New Cairo, Cairo, Egypt</li>
+                        <li><i class="fa-solid fa-phone text-indigo-400 mr-2"></i> +20 102 077 1282</li>
+                        <li><i class="fa-solid fa-envelope text-indigo-400 mr-2"></i> assema2karam@gmail.com</li>
+                        <li><i class="fa-solid fa-graduation-cap text-indigo-400 mr-2"></i> Fayoum University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-indigo-400">Technical Skills</h2>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-brands fa-html5 text-4xl text-orange-500 mb-3"></i>
+                    <h3 class="font-semibold text-lg">HTML5</h3>
+                </div>
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-brands fa-css3-alt text-4xl text-blue-500 mb-3"></i>
+                    <h3 class="font-semibold text-lg">CSS3</h3>
+                </div>
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-brands fa-js text-4xl text-yellow-400 mb-3"></i>
+                    <h3 class="font-semibold text-lg">JavaScript</h3>
+                </div>
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-brands fa-bootstrap text-4xl text-purple-500 mb-3"></i>
+                    <h3 class="font-semibold text-lg">Bootstrap</h3>
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-solid fa-wind text-4xl text-teal-400 mb-3"></i>
+                    <h3 class="font-semibold text-lg">Tailwind CSS</h3>
+                </div>
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-brands fa-react text-4xl text-cyan-400 mb-3"></i>
+                    <h3 class="font-semibold text-lg">React</h3>
+                </div>
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-brands fa-git-alt text-4xl text-red-500 mb-3"></i>
+                    <h3 class="font-semibold text-lg">Git</h3>
+                </div>
+                <div class="skill-card bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-indigo-500 transition">
+                    <i class="fa-brands fa-github text-4xl text-white mb-3"></i>
+                    <h3 class="font-semibold text-lg">GitHub</h3>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-slate-800/40 p-6 rounded-xl border border-slate-700">
+                <h3 class="text-xl font-semibold mb-4 text-indigo-300">Core Concepts & Design</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-full text-sm">C++</span>
+                    <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-full text-sm">Object-Oriented Programming (OOP)</span>
+                    <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-full text-sm">Data Structures</span>
+                    <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-full text-sm">UI/UX Design Principles</span>
+                    <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-full text-sm">CSS Grid & Flexbox</span>
+                    <span class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-full text-sm">Responsive Web Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-indigo-400">Professional Training & Activities</h2>
+            <div class="space-y-8 max-w-4xl mx-auto">
+                
+                <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-indigo-500">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <h3 class="text-xl font-bold">Front-End React Developer</h3>
+                        <span class="text-sm text-indigo-400 bg-indigo-950/60 px-3 py-1 rounded-full">Jul 2026 - Present</span>
+                    </div>
+                    <p class="text-slate-400 font-medium mb-3">Digital Egypt Pioneers Initiative (DEPI)</p>
+                    <ul class="list-disc list-inside text-slate-300 space-y-2">
+                        <li>Developed and simulated professional web layouts focusing on semantic HTML, CSS, and JavaScript</li>
+                        <li>Enhanced essential soft skills including Communication, Teamwork, and Presentation skills</li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-indigo-500">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <h3 class="text-xl font-bold">Web Development Trainee</h3>
+                        <span class="text-sm text-indigo-400 bg-indigo-950/60 px-3 py-1 rounded-full">May 2026 - Jun 2026</span>
+                    </div>
+                    <p class="text-slate-400 font-medium mb-3">National Telecommunications Institute (NTI)</p>
+                    <ul class="list-disc list-inside text-slate-300 space-y-2">
+                        <li>Developed and simulated professional web layouts focusing on semantic HTML and advanced CSS</li>
+                        <li>Completed project portfolio: Launch, Gallery, Charles, INance, Look, and Sun website simulations</li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-indigo-500">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <h3 class="text-xl font-bold">FR Member</h3>
+                        <span class="text-sm text-indigo-400 bg-indigo-950/60 px-3 py-1 rounded-full">Oct 2025 - Present</span>
+                    </div>
+                    <p class="text-slate-400 font-medium mb-3">IEEE Fayoum Branch</p>
+                    <ul class="list-disc list-inside text-slate-300 space-y-2">
+                        <li>Participated in workshops and events, advancing understanding of cutting-edge tech</li>
+                        <li>Engaged in collaborative projects and networking with technology professionals</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-indigo-400">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">"Last Summer" Restaurant Website</h3>
+                        <p class="text-slate-300 mb-4">
+                            A fully responsive user interface utilizing modern layout modules and interactive features.
+                        </p>
+                        <ul class="list-disc list-inside text-slate-400 text-sm space-y-2 mb-6">
+                            <li>Developed responsive UI using modern CSS techniques</li>
+                            <li>Implemented an interactive reservation system</li>
+                            <li>Structured service modules using CSS Grid</li>
+                        </ul>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-slate-700 text-xs px-2.5 py-1 rounded text-slate-300">HTML5</span>
+                            <span class="bg-slate-700 text-xs px-2.5 py-1 rounded text-slate-300">CSS Grid</span>
+                            <span class="bg-slate-700 text-xs px-2.5 py-1 rounded text-slate-300">JavaScript</span>
+                        </div>
+                        <a href="#" class="inline-flex items-center text-indigo-400 hover:text-indigo-300 font-semibold text-sm">
+                            Live Demo <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">NTI Web Layout Simulations</h3>
+                        <p class="text-slate-300 mb-4">
+                            A suite of pixel-perfect web layout simulations built during the NTI Web Development training.
+                        </p>
+                        <ul class="list-disc list-inside text-slate-400 text-sm space-y-2 mb-6">
+                            <li>Simulations: Launch, Gallery, Charles, INance, Look, Sun</li>
+                            <li>Focused on semantic structure and responsive layouts</li>
+                            <li>Cross-browser compatibility and clean code architecture</li>
+                        </ul>
+                    </div>
+                    <div class="px-6 pb-6 pt-0">
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-slate-700 text-xs px-2.5 py-1 rounded text-slate-300">Semantic HTML</span>
+                            <span class="bg-slate-700 text-xs px-2.5 py-1 rounded text-slate-300">Advanced CSS</span>
+                            <span class="bg-slate-700 text-xs px-2.5 py-1 rounded text-slate-300">Flexbox</span>
+                        </div>
+                        <a href="#" class="inline-flex items-center text-indigo-400 hover:text-indigo-300 font-semibold text-sm">
+                            View Work <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-800/50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-indigo-400">Get In Touch</h2>
+            <p class="text-slate-300 mb-8 max-w-xl mx-auto">
+                I am actively seeking Junior Front-End Developer positions. Feel free to reach out for opportunities or collaborations!
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6 mb-12">
+                <a href="mailto:assemasm4@gmail.com" class="bg-slate-800 border border-slate-700 hover:border-indigo-500 p-4 rounded-xl flex items-center justify-center space-x-3 transition">
+                    <i class="fa-solid fa-envelope text-indigo-400 text-xl"></i>
+                    <span>assemasm4@gmail.com</span>
+                </a>
+                <a href="tel:+201020771282" class="bg-slate-800 border border-slate-700 hover:border-indigo-500 p-4 rounded-xl flex items-center justify-center space-x-3 transition">
+                    <i class="fa-solid fa-phone text-indigo-400 text-xl"></i>
+                    <span>+20 102 077 1282</span>
+                </a>
+            </div>
+            <a href="https://linkedin.com/in/assem-karam-79b28835b" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-3 rounded-lg transition inline-block">
+                Connect on LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-6 text-center text-slate-500 border-t border-slate-800 text-sm">
+        <p>&copy; 2026 Assem Karam. Built with HTML, CSS, & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
